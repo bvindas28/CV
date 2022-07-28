@@ -1,7 +1,11 @@
+@font-face{
+    font-family:myfirstFont ;
+    src: url( ../font/glimmer_of_light\ \(1\).zip);
+}
+
 body {
     width: 100%;
-    background-color: black;
-    color: white;
+    font-family: myfirstFont, Arial;
 }
 .container{
     display: flex;
@@ -9,12 +13,16 @@ body {
     padding-right: 50px;
     width: 100%;
     flex-direction: row;
+    padding-top: 50px;
 }
-
+.width{
+    width: 90%;
+}
 .left-banner{
     flex: 1;
     text-align: center;
 }
+
 .rigth-banner{
     flex: 5;
     flex-direction: column;
