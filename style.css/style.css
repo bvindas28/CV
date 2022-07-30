@@ -3,13 +3,17 @@
     src: url( ../font/glimmer_of_light\ \(1\).zip);
 }
 
-body {
+body{
     width: 100%;
     font-family: myfirstFont, Arial;
     background-image: url('../font/glimmer_of_light\ \(1\).zip');
     background-repeat: no-repeat;
     background-size: cover;
-    color: blue;
+    color: black;
+}
+
+.circle-image{
+    border-radius: 50%;
 }
 
 .container{
@@ -24,10 +28,12 @@ body {
     width: 90%;
 }
 .left-banner {
+    color: white;
     flex: 1;
     text-align: center;
     border-right: 1px solid black;
     margin-right: 21px;
+    background-color: dimgray;
 }
 
 .right-banner {
@@ -35,7 +41,6 @@ body {
     flex-direction: column;
     text-align: justify;
     font-size: 12px;
-    border-left: 1px solid black;
     }
     .left-banner h2, .left-banner img{
         text-align: center;
