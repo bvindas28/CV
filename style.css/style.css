@@ -3,7 +3,7 @@
     src: url( ../font/glimmer_of_light\ \(1\).zip);
 }
 
-body {
+body{
     width: 100%;
     font-family: myfirstFont, Arial;
     background-image: url('../font/glimmer_of_light\ \(1\).zip');
