@@ -1,23 +1,54 @@
+@font-face{
+    font-family:myfirstFont ;
+    src: url( ../font/glimmer_of_light\ \(1\).zip);
+}
+
 body {
     width: 100%;
-    background-color: black;
-    color: white;
+    font-family: myfirstFont, Arial;
+    background-image: url('../font/glimmer_of_light\ \(1\).zip');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: blue;
 }
+
 .container{
     display: flex;
     padding-left: 50px;
     padding-right: 50px;
     width: 100%;
     flex-direction: row;
+    padding-top: 50px;
 }
-
-.left-banner{
+.width{
+    width: 90%;
+}
+.left-banner {
     flex: 1;
     text-align: center;
+    border-right: 1px solid black;
+    margin-right: 21px;
 }
-.rigth-banner{
+
+.right-banner {
     flex: 5;
     flex-direction: column;
     text-align: justify;
-    font-size: 20px;
+    font-size: 12px;
+    border-left: 1px solid black;
+    }
+    .left-banner h2, .left-banner img{
+        text-align: center;
+    }
+
+  h2 {
+    padding-top: 10px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.habilidades ul,li{
+    text-align: left ;
 }
