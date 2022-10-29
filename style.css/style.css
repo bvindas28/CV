@@ -44,6 +44,7 @@ body{
     }
     .left-banner h2, .left-banner img{
         text-align: center;
+        position: relative;
     }
 
   h2 {
@@ -56,4 +57,14 @@ body{
 
 .habilidades ul,li{
     text-align: left ;
+}
+
+.Redes-Sociales {
+    margin-right: 21px;
+    float: right;
+    top: 50px;
+    text-align: right;
+    flex: 1;
+    position: absolute;
+    width: 20%;
 }
